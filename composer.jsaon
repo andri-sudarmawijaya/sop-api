@@ -1,0 +1,29 @@
+{
+  "description": "REST API untuk aplikasi SOP Online",
+  "name": "bantenprov/sop-api",
+  "type": "library",
+  "homepage": "https://github.com/bantenprov/sop-api",
+  "authors": [
+    {
+      "name": "bantenprov",
+      "email": "developer.bantenprov@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/bantenprov/sop-api"
+  },
+  "require": {
+    "bantenprov/sop-online": ">=1.0.x"
+  },
+  "autoload": {
+        "files": [
+            "src/helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Bantenprov\\SopApi\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
