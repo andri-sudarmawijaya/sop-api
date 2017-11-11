@@ -12,7 +12,9 @@
   ],
   "license": "MIT",
   "support": {
-    "source": "https://github.com/bantenprov/sop-api"
+    "source": "https://github.com/bantenprov/sop-api",
+    "issues": "https://github.com/bantenprov/sop-api/issues",
+    "wiki": "https://github.com/bantenprov/sop-api/wiki"
   },
   "require": {
     "bantenprov/sop-online": "1.0.x"
